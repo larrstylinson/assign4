@@ -6,7 +6,17 @@ It uses the following APIs:
 3. TimezoneDB API: To get the current time in different time zones.
 4. GeoNames API: To get information about cities such as name, country and population.
 
-                 The application supports the following features:
+The project has introduced a REST API allowing the addition of city information,
+including its name, description, and three photos.
+Users can view this information and browse through the city photos.
+
+                      The administrator can:
+
+- Add city information: send POST requests to the server with city data and its photos.
+- Edit city information: send PATCH or PUT requests to modify city data.
+- Delete city information: send DELETE requests to remove city data from the database.
+                 
+                The application supports the following features:
 
 - User Registration and Authentication: Users can register, authenticate and log in to access various features.
 - User management: Administrators have the ability to view, edit and delete users.(LOGIN: marzhan PASSWORD: omar)
